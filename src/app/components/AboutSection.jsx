@@ -26,7 +26,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Jaypee University of Information Technology,Waknaghat, India</li>
+        <li>Jaypee University of Information Technology, Waknaghat, India</li>
         <li>Delhi Public School, Bangalore East, India</li>
         <li>Amity International School, Vasundhara, India</li>
       </ul>
@@ -38,10 +38,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Python Foundation Certification</li>
-        <li>Associate in IT Foundation Skills (Python)</li>
+        <li>Associate in IT Foundation Skills (&apos;Python&apos;)</li>
         <li>React Web Developer Certification</li>
         <li>LYFT: Back-End Engineering Virtual Experience Program</li>
-        <li>JPMorgan Chase & Co: Software Engineering Virtual Experience</li>
+        <li>JPMorgan Chase &amp; Co: Software Engineering Virtual Experience</li>
         <li>Data Science Foundation Certification</li>
       </ul>
     ),

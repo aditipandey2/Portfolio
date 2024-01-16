@@ -5,11 +5,13 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+// ... (other imports)
+
 const HeroSection = () => {
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        <motion.div
+      <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
@@ -37,9 +39,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Greetings! I'm Aditi Pandey, a proactive and driven Computer Science enthusiast.
-          I've cultivated a deep passion for programming languages, web development, and the intriguing world of machine learning.
-          Let's connect and explore the possibilities together!
+            Greetings! I&apos;m Aditi Pandey, a proactive and driven Computer Science enthusiast.
+            I&apos;ve cultivated a deep passion for programming languages, web development, and the intriguing world of machine learning.
+            Let&apos;s connect and explore the possibilities together!
           </p>
           <div>
             <Link
@@ -80,3 +82,5 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+
