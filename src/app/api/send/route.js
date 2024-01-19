@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const fromEmail = "Aditi <aditipandey@outlook.com>";
+const fromEmail = "aditipandey@outlook.com";
 
 export async function POST(req, res) {
   // Log the raw request body
